@@ -148,6 +148,7 @@ public class BrokerStartup {
             }
 
             String namesrvAddr = brokerConfig.getNamesrvAddr();
+            System.out.println("lktest:"+namesrvAddr);
             if (null != namesrvAddr) {
                 try {
                     String[] addrArray = namesrvAddr.split(";");
